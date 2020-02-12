@@ -35,4 +35,4 @@ for row in combinations(df_new.values, 5):
         Q3 = (row[4][0], row[4][1])
 
         geometry_patterns = Geometry_Patters()
-        standard_w = geometry_patterns.geometric_definition_fuzzy_standard_w(Q1, P1, Q2, P2, Q3)
+        standard_w = geometry_patterns.standard_w_pattern(Q1, P1, Q2, P2, Q3)

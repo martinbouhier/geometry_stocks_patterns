@@ -43,7 +43,7 @@ class Geometry_Patters(object):
     def __init__(self):
         super(Geometry_Patters, self).__init__()
 
-    def geometric_definition_fuzzy_standard_w(self, Q1, P1, Q2, P2, Q3):
+    def standard_w_pattern(self, Q1, P1, Q2, P2, Q3):
         O_ = (P1[0] + P2[0]) / 2, (P1[1] + P2[1]) / 2
         OQ2 = Q2[0] - O_[0], Q2[1] - O_[1]
         OQ1 = Q1[0] - O_[0], Q1[1] - O_[1]
